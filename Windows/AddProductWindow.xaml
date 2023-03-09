@@ -1,0 +1,54 @@
+﻿<Page x:Class="_3ISP918VB_FEDIN_NESMELOV.AddProductWindow"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:_3ISP918VB_FEDIN_NESMELOV"
+      mc:Ignorable="d" 
+      Background="White" d:DesignWidth="300"
+      Title="AddProductWindow" Height="585.778">
+
+    <Grid Margin="0,0,0,-0.222">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="141*"/>
+            <ColumnDefinition Width="145*"/>
+        </Grid.ColumnDefinitions>
+        <TextBox x:Name="TbNameProduct" HorizontalAlignment="Left" Height="33" TextWrapping="Wrap"  VerticalAlignment="Top" Width="280" Margin="13,254,0,0" Grid.ColumnSpan="2"/>
+        <TextBlock
+                       Text="Введите название товара"
+                       FontSize="15"
+                       TextAlignment="Left"
+                       Foreground="Gray"
+                       Margin="13,225,48,323" Grid.ColumnSpan="2"/>
+        <TextBlock
+                       Text="Введите описание товара"
+                       FontSize="15"
+                       TextAlignment="Left"
+                       Foreground="Gray"
+                       Margin="13,293,48,255" Grid.ColumnSpan="2"/>
+        <TextBlock
+                       Text="Введите тип товара"
+                       FontSize="15"
+                       TextAlignment="Left"
+                       Foreground="Gray"
+                       Margin="13,354,48,194" Grid.ColumnSpan="2"/>
+        <TextBox x:Name="TbDisc" HorizontalAlignment="Left" Height="33" TextWrapping="Wrap"  VerticalAlignment="Top" Width="280" Margin="13,321,0,0" Grid.ColumnSpan="2"/>
+        <ComboBox x:Name="CMBTypeProduct"
+                     FontSize="20"                     
+                     Foreground="Black" Grid.ColumnSpan="2" Margin="13,383,7,172" SelectionChanged="CMBTypeProduct_SelectionChanged"/>
+        <Image x:Name="ImgProduct" HorizontalAlignment="Left" Height="134" VerticalAlignment="Top" Width="188" Grid.ColumnSpan="2" Margin="46,38,0,0" Source="Булочная.png"/>
+
+        <Button x:Name="BtnChoseImage" 
+                    Content="Выбрать фото"
+                    Margin="93,102,106,661"
+                    Click="BtnChooseImage_Click" Grid.ColumnSpan="2"/>
+        <Label x:Name="label" Content="Добавление товара" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.ColumnSpan="2" Margin="24,-6,0,0" Width="247" FontSize="25"/>
+        <Button x:Name="BtnAddEdit" Content="Добавить" HorizontalAlignment="Left" VerticalAlignment="Top" Width="139" Grid.ColumnSpan="2" Margin="71,429,0,0" Height="40" Click="BtnAddEdit_Click"/>
+        <Button x:Name="BtnChooseImage" 
+                    Content="Выбрать фото"
+                    Height="40" 
+                Grid.ColumnSpan="2" 
+                Margin="93,172,107,374" 
+                Click="BtnChooseImage_Click"/>
+    </Grid>
+</Page>

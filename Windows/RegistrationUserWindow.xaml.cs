@@ -10,18 +10,24 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace _3ISP918VB_FEDIN_NESMELOV
+namespace _3ISP918VB_FEDIN_NESMELOV.Windows
 {
     /// <summary>
-    /// Логика взаимодействия для Window1.xaml
+    /// Логика взаимодействия для RegistrationUserWindow.xaml
     /// </summary>
-    public partial class Window1 : Window
+    public partial class RegistrationUserWindow : Page
     {
-        public Window1()
+        public RegistrationUserWindow()
         {
             InitializeComponent();
+        }
+
+        internal void Show()
+        {
+            throw new NotImplementedException();
         }
     }
 }

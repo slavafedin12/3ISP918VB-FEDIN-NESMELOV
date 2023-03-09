@@ -7,19 +7,22 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace _3ISP918VB_FEDIN_NESMELOV
+namespace _3ISP918VB_FEDIN_NESMELOV.DB
 {
     using System;
     using System.Collections.Generic;
     
-    public partial class ProdShop
+    public partial class Employee
     {
-        public int ID { get; set; }
-        public int ShopId { get; set; }
-        public int ProdId { get; set; }
-        public string Quantity { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
+        public Employee()
+        {
+            this.Shopping = new HashSet<Shopping>();
+        }
     
-        public virtual Product Product { get; set; }
-        public virtual Shopping Shopping { get; set; }
+        public int ID { get; set; }
+    
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<Shopping> Shopping { get; set; }
     }
 }

@@ -7,16 +7,19 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace _3ISP918VB_FEDIN_NESMELOV
+namespace _3ISP918VB_FEDIN_NESMELOV.DB
 {
     using System;
     using System.Collections.Generic;
     
     public partial class Product
     {
-        public int ID { get; set; }
-        public string Name { get; set; }
-        public decimal Price { get; set; }
+        public int IdProd { get; set; }
+        public string ProdName { get; set; }
+        public int IdProdType { get; set; }
+        public string Description { get; set; }
+        public byte[] Image { get; set; }
+        public short Quantity { get; set; }
     
         public virtual ProdShop ProdShop { get; set; }
     }

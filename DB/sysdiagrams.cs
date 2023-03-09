@@ -7,17 +7,17 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace _3ISP918VB_FEDIN_NESMELOV
+namespace _3ISP918VB_FEDIN_NESMELOV.DB
 {
     using System;
     using System.Collections.Generic;
     
-    public partial class Basket
+    public partial class sysdiagrams
     {
-        public int ID { get; set; }
-        public int ClientId { get; set; }
-        public int ProdId { get; set; }
-    
-        public virtual Shopping Shopping { get; set; }
+        public string name { get; set; }
+        public int principal_id { get; set; }
+        public int diagram_id { get; set; }
+        public Nullable<int> version { get; set; }
+        public byte[] definition { get; set; }
     }
 }

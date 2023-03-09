@@ -1,0 +1,49 @@
+﻿<Window x:Class="_3ISP918VB_FEDIN_NESMELOV.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_3ISP918VB_FEDIN_NESMELOV"
+        mc:Ignorable="d"
+        Title="Список товаров" Height="450" Width="661.236">
+    <Grid>
+        <ListView x:Name="listView" HorizontalAlignment="Left" Height="220" Margin="45,78,0,0" VerticalAlignment="Top" Width="138">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn/>
+                </GridView>
+            </ListView.View>
+            <TextBox x:Name="textBox" Height="23" TextWrapping="Wrap" Text="Лепешка" Width="117" RenderTransformOrigin="0.349,1.84"/>
+            <Image x:Name="Без_названия_jpg" Height="77" Source="Без названия.jpg" Stretch="Fill" Width="117"/>
+            <TextBox x:Name="textBox3" Height="23" TextWrapping="Wrap" Width="120" Text="Обыкновенная"/>
+            <Button x:Name="button" Content="Купить" Width="118"/>
+        </ListView>
+        <ListView x:Name="listView1" HorizontalAlignment="Left" Height="220" Margin="214,78,0,0" VerticalAlignment="Top" Width="140" RenderTransformOrigin="0.5,0.5">
+            <ListView.RenderTransform>
+                <TransformGroup>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </ListView.RenderTransform>
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn/>
+                </GridView>
+            </ListView.View>
+            <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="Булочка с маком" VerticalAlignment="Top" Width="120"/>
+            <Image x:Name="Без_названия__1__jpg" Height="78" Source="Без названия (1).jpg" Stretch="Fill" Width="119"/>
+            <TextBox x:Name="textBox4" Height="23" TextWrapping="Wrap" Width="120" Text="Много мака"/>
+            <Button x:Name="button1" Content="Купить" Width="120"/>
+        </ListView>
+        <ListView x:Name="listView2" HorizontalAlignment="Left" Height="218" Margin="384,80,0,0" VerticalAlignment="Top" Width="139">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn/>
+                </GridView>
+            </ListView.View>
+            <TextBox x:Name="textBox2" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="Сосиска в тесте" VerticalAlignment="Top" Width="119"/>
+            <Image x:Name="Без_названия__2__jpg" Height="80" Source="Без названия (2).jpg" Stretch="Fill" Width="119"/>
+            <TextBox x:Name="textBox5" Height="23" TextWrapping="Wrap" Width="120" Text="С пылу с жару"/>
+            <Button x:Name="button2" Content="Купить" Width="119"/>
+        </ListView>
+    </Grid>
+</Window>

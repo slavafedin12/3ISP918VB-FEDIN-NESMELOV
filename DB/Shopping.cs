@@ -7,28 +7,27 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace _3ISP918VB_FEDIN_NESMELOV
+namespace _3ISP918VB_FEDIN_NESMELOV.DB
 {
     using System;
     using System.Collections.Generic;
     
-    public partial class Client
+    public partial class Shopping
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public Client()
+        public Shopping()
         {
-            this.Shopping = new HashSet<Shopping>();
+            this.Basket = new HashSet<Basket>();
         }
     
         public int ID { get; set; }
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
-        public string Patronymic { get; set; }
-        public string Email { get; set; }
-        public string Phone { get; set; }
+        public int ClientId { get; set; }
+        public float StartTime { get; set; }
+        public int EmployeeId { get; set; }
     
-        public virtual Pay Pay { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<Shopping> Shopping { get; set; }
+        public virtual ICollection<Basket> Basket { get; set; }
+        public virtual Employee Employee { get; set; }
+        public virtual ProdShop ProdShop { get; set; }
     }
 }
