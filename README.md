@@ -5,12 +5,13 @@
 
 <b>БАЗА ДАННЫХ<b/>
 
-![image](https://user-images.githubusercontent.com/116282160/216312035-976c8aba-7dd5-4e53-8cc6-4c62054b9535.png)
+![image](https://user-images.githubusercontent.com/116282160/224245135-7bdadfe0-2820-4f06-b44a-0c388995b34e.png)
 
 <b>РЕГИСТРАЦИЯ<b/>
 
-![image](https://user-images.githubusercontent.com/116282160/216312433-eaccad41-6ad8-48a7-aaba-c5bfd0fec997.png)
+![image](https://user-images.githubusercontent.com/116282160/224245526-ce693e6e-eff7-4538-80ad-df7326022212.png)
 
 <b>АВТОРИЗАЦИЯ<b/>
 
-![image](https://user-images.githubusercontent.com/116282160/216312587-e524e7d0-f453-42ce-8766-fa5bec10b622.png)
+![image](https://user-images.githubusercontent.com/116282160/224245601-6225e7ae-d1ce-4b4c-994a-773317a7c182.png)
+
