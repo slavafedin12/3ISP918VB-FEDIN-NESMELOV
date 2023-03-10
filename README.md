@@ -15,3 +15,6 @@
 
 ![image](https://user-images.githubusercontent.com/116282160/224245601-6225e7ae-d1ce-4b4c-994a-773317a7c182.png)
 
+<b>ДОБАВЛЕНИЕ ТОВАРА<b/>
+  
+  ![image](https://user-images.githubusercontent.com/116282160/224246037-fc08333e-ce92-49db-bd3b-881cd4fa2090.png)
